@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,10 +6,10 @@ namespace Treehouse.MediaLibrary
 {
     class Movie
     {
-        public string Title;
-        public string Director;
+        public readonly string Title;
+        public readonly string Director;
 
-        class Movie (string title, string director)
+        public Movie (string title, string director)
             {
 
             Title = title;
